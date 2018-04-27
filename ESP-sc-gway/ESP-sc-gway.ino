@@ -418,7 +418,7 @@ void setupTime() {
 // Each line contains an KEY vaue pair describing the gateway configuration
 //
 // ----------------------------------------------------------------------------
-int WlanReadWpa() {
+void WlanReadWpa() {
 	
 	readConfig( CONFIGFILE, &gwayConfig);
 
